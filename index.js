@@ -16,13 +16,14 @@ var getAllImages = require("./model/getAllImages");
 var getUserPin = require("./model/getUserPin");
 var updateImgPin = require("./model/updateImgPin");
 
-app.listen(8080);
+var port = process.env.PORT || 8080;
+app.listen(port);
 app.use(express.static(__dirname + '/views'));
 
 var twitter = new Twitter({
         consumerKey: "6gZ9Iv9JeAHOX6WMuoswtxHRw",
         consumerSecret: "HYzGEPx0XBECFwGHznm1HP60Uf4VYLyFfsTPBe3hD4RM9xMahp",
-        callback: "https://pinterestclone-quanghuyf.c9users.io/callback"
+        callback: "https://pinclone-fcc.herokuapp.com/callback"
     });
 
     var _requestSecret;

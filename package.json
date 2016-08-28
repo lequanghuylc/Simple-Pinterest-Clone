@@ -2,9 +2,12 @@
   "name": "workspace",
   "version": "1.0.0",
   "description": "Simple Pinterest Clone using MERN stack",
+  "engines": {
+    "node": "4.4.5"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,12 +23,8 @@
     "bluebird": "^3.4.3",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "imagesloaded": "^4.1.0",
-    "jquery-bridget": "^2.0.1",
-    "masonry-layout": "^4.1.1",
     "mongodb": "^2.2.8",
-    "node-twitter-api": "^1.7.4",
-    "react-masonry-component": "^4.2.1"
+    "node-twitter-api": "^1.7.4"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -34,6 +33,7 @@
     "jquery": "^3.1.0",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "react-masonry-component": "^4.2.1"
   }
 }
