@@ -21,8 +21,8 @@ app.listen(port);
 app.use(express.static(__dirname + '/views'));
 
 var twitter = new Twitter({
-        consumerKey: "6gZ9Iv9JeAHOX6WMuoswtxHRw",
-        consumerSecret: "HYzGEPx0XBECFwGHznm1HP60Uf4VYLyFfsTPBe3hD4RM9xMahp",
+        consumerKey: "7xgVLjXLIJOYObxBl3baHlc4g",
+        consumerSecret: "i9vsjXAb5jmBKUbwGPc79iokDAexBxNW6VJNQlq0sRZgbfrkY2",
         callback: "https://pinclone-fcc.herokuapp.com/callback"
     });
 

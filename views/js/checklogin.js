@@ -10,7 +10,7 @@
             return (false);
     }
     var twToken = getQueryVariable("oauth_token");
-$.get(window.location.href.substring(43).replace("callback", "access-token"), function(data){
+$.get(window.location.href.substring(34).replace("callback", "access-token"), function(data){
     $(".container").html("<span style='color:#fff;'>You signed in, wait a second for redirect...</span>");
     window.history.pushState("Homepage", "Homepage", "/");
     // set cookie
